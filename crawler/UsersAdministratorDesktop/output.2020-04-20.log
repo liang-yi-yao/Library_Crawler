@@ -1,0 +1,21 @@
+2020-04-20  17:20:34.112 [main] INFO  com.ruc.conf.FileConfRead - init config success!
+2020-04-20  17:20:37.477 [main] INFO  com.ruc.fetcher.Fetcher - >>>>>>>>>>>>> start  crawl <<<<<<<<<<<<<<<<
+2020-04-20  17:20:37.578 [main] DEBUG com.ruc.fetcher.Fetcher - Sleep 100 ms
+2020-04-20  17:20:37.608 [main] DEBUG com.ruc.pool.SimplePool - objectPoll not fulled!, init object, now poll size: 0
+2020-04-20  17:20:37.610 [crawl-fetch-1] DEBUG com.ruc.job.DefaultAbstractCrawlJob - start crawl url:https://searchworks.stanford.edu/view/13485628
+2020-04-20  17:20:40.891 [crawl-fetch-1] DEBUG com.ruc.job.DefaultAbstractCrawlJob - crawl url:https://searchworks.stanford.edu/view/13485628 response code: 404 cost time: 3280 ms
+
+2020-04-20  17:20:41.180 [crawl-fetch-1] DEBUG com.ruc.filter.ResultFilter - url https://searchworks.stanford.edu/view/13485628 subUrl counts:0,filter result cost: 10ms, currentDepth:0 
+
+
+2020-04-20  17:20:41.180 [crawl-fetch-1] DEBUG com.ruc.pool.SimplePool - return obj to pool status: true, now size: 1
+2020-04-20  17:20:41.610 [main] INFO  com.ruc.fetcher.Fetcher - >>>>>>>>>>>>>>>> crawler over! total url num: 1, cost: 4133ms <<<<<<<<<<<<<<<<
+2020-04-20  17:20:41.634 [main] INFO  com.ruc.fetcher.Fetcher - >>>>>>>>>>>>> start  crawl <<<<<<<<<<<<<<<<
+2020-04-20  17:20:41.734 [main] DEBUG com.ruc.fetcher.Fetcher - Sleep 100 ms
+2020-04-20  17:20:41.736 [crawl-fetch-2] DEBUG com.ruc.job.DefaultAbstractCrawlJob - start crawl url:https://searchworks.stanford.edu/view/13485635
+2020-04-20  17:20:42.719 [crawl-fetch-2] DEBUG com.ruc.job.DefaultAbstractCrawlJob - crawl url:https://searchworks.stanford.edu/view/13485635 response code: 404 cost time: 982 ms
+
+2020-04-20  17:20:42.730 [crawl-fetch-2] DEBUG com.ruc.filter.ResultFilter - url https://searchworks.stanford.edu/view/13485635 subUrl counts:0,filter result cost: 7ms, currentDepth:0 
+
+
+2020-04-20  17:20:42.731 [crawl-fetch-2] DEBUG com.ruc.pool.SimplePool - return obj to pool status: true, now size: 1
